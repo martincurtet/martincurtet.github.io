@@ -89,13 +89,16 @@ body{
 
     position: fixed;
     bottom: 10%;
-    right: 00px;
+    right: -1px;
 
     height: 50px;
     width: 50px;
 
+    background-color: lightgrey;
+
     border: solid black 1px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 #backtotop:link{
