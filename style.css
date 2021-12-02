@@ -36,17 +36,12 @@ body{
     text-align: center;
 }
 
-#tabs a{
-    margin-left: 10px;
-    margin-right: 10px;
-}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 
-#tabs a:first-of-type{
-    margin-left: 20px;
-}
-
-#tabs a:last-child{
-    margin-right: 20px;
+    margin: 0px 10px 0px 10px;
 }
 
 #tabs a:link{
@@ -73,6 +68,13 @@ body{
     background-color: rgba(255, 255, 255, 0.8);
 
     padding: 15px;
+}
+
+.block:hover{
+    cursor: pointer;
+
+    background-color: rgba(192, 192, 192, 0.8);
+    transition: background-color 0.2s;
 }
 
 .block-title{
