@@ -78,10 +78,19 @@ body{
 }
 
 .block-title{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
     font-size: x-large;
     font-weight: bold;
 
     padding-bottom: 10px;
+}
+
+.block-title img{
+    height: 30px;
+    width:  30px;
 }
 
 #backtotop{
