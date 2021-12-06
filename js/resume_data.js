@@ -32,7 +32,7 @@ resume_data = [
         title: "Fullstack Developer",
         place: "Qualibat",
         link: "https://www.qualibat.com/",
-        desc: "Work-study program of one year for my Bachelor's Degree. Worked on a second version of the company working software using : • React • Python Flask • PostgreSQL Tasks done: Tests API, documentation, website models, specifications and assisting the project lead whenever needed."
+        desc: "Work-study program of one year for my Bachelor's Degree. Worked on a second version of the company working software using:\n• React\n• Python Flask\n• PostgreSQL\nTasks done: Tests API, documentation, website models, specifications and assisting the project lead whenever needed."
     },
     // {
     //     date: "",

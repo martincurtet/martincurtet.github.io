@@ -1,4 +1,4 @@
-loadCarousel()
+// loadCarousel()
 
 function loadCarousel(){
     // carousel resume
@@ -33,4 +33,36 @@ function nextItemResume(){
     document.getElementById("carousel-resume-content").innerHTML = nextItem["desc"]
     document.querySelectorAll('#carousel-resume-slides span')[0].innerHTML = (nextId + 1).toString()
     document.getElementById("carousel-resume").setAttribute("value", nextId.toString())
+}
+
+//
+loadResume()
+function loadResume(){
+    console.log("debut fonction")
+    let resume = document.getElementById("resume")
+    for (let i = resume_data.length - 1; i >= 0; i--) {
+        let rDate = resume_data[i]["date"]
+        let rTitle = resume_data[i]["title"]
+        let rPlace = resume_data[i]["place"]
+        let rLink = resume_data[i]["link"]
+        let rDesc =resume_data[i]["desc"]
+
+        let linkString = `<div class="rPlace">${rPlace}</div>`
+        if (rLink) {
+            linkString = `<div class="rPlace"><a href="${rLink}" target="_blank">${rPlace}</a></div>`
+        }
+
+        let resumeString = `
+        <div class="resumeItem">
+        <div class="rDate">${rDate}</div>
+        <div class="rTitle"><span></span>${rTitle}</div>
+        ${linkString}
+        <div class="rDesc">${rDesc}</div>
+        </div>
+        `
+
+        console.log(resumeString)
+        resume.innerHTML += resumeString
+    }
+    console.log("fin fonction")
 }
