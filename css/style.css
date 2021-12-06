@@ -70,12 +70,12 @@ body{
     padding: 15px;
 }
 
-.block:hover{
+/* .block:hover{
     cursor: pointer;
 
     background-color: rgba(192, 192, 192, 0.8);
     transition: background-color 0.2s;
-}
+} */
 
 .block-title{
     display: flex;
@@ -91,6 +91,26 @@ body{
 .block-title img{
     height: 30px;
     width:  30px;
+}
+
+.block-carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-title{
+    text-align: center;
+}
+
+.carousel-slides{
+    text-align: center;
 }
 
 #backtotop{

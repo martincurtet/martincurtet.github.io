@@ -39,6 +39,16 @@
                     <div class=block-text>
                         <a href="docs/assets/pdf/CV_CURTETMartin.pdf" download="">Download (pdf)</a>
                     </div>
+                    <div id="carousel-resume" class="block-carousel">
+                        <div onclick="previousItemResume()">&#10094</div>
+                        <div class="carousel-item">
+                            <div id="carousel-resume-title" class="carousel-title"></div>
+                            <div id="carousel-resume-place" class="carousel-place"></div>
+                            <div id="carousel-resume-content" class="carousel-content"></div>
+                            <div id="carousel-resume-slides" class="carousel-slides"><span></span>/<span></span></div>
+                        </div>
+                        <div onclick="nextItemResume()">&#10095</div>
+                    </div>
                 </div>
 
                 <div id="bProjects" class="block">
@@ -72,6 +82,9 @@
             <a id="backtotop" href="#">^</a>
         </div><!-- END MAIN -->
 
+        <!-- SCRIPTS -->
+        <script src="js/resume_data.js"></script>
         <script src="js/script.js"></script>
+        <!-- END SCRIPTS -->
     </body>
 </html>
