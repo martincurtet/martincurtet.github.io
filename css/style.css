@@ -113,6 +113,10 @@ body{
     text-align: center;
 }
 
+.pointer{
+    cursor: pointer;
+}
+
 #backtotop{
     display: flex;
     justify-content: center;
