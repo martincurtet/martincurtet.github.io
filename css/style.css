@@ -104,12 +104,32 @@ body{
     flex-direction: column;
     gap: 20px;
 
-    padding-left: 20px;
+    padding-left: 15px;
 
     border-left: solid 2px slateblue;
 }
 
-.resumeItem{}
+.resumeItem{
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
+.resumeItem-black{
+    border: solid 2px black;
+}
+
+.resumeItem-blue{
+    border: solid 2px blue;
+}
+
+.resumeItem-green{
+    border: solid 2px green;
+}
+
+.resumeItem-red{
+    border: solid 2px red;
+}
 
 .rDate{
     font-weight: bold;

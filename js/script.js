@@ -38,22 +38,38 @@ function nextItemResume(){
 //
 loadResume()
 function loadResume(){
-    console.log("debut fonction")
     let resume = document.getElementById("resume")
     for (let i = resume_data.length - 1; i >= 0; i--) {
         let rDate = resume_data[i]["date"]
         let rTitle = resume_data[i]["title"]
         let rPlace = resume_data[i]["place"]
         let rLink = resume_data[i]["link"]
-        let rDesc =resume_data[i]["desc"]
+        let rDesc = resume_data[i]["desc"]
+        let rType = resume_data[i]["type"]
 
         let linkString = `<div class="rPlace">${rPlace}</div>`
         if (rLink) {
             linkString = `<div class="rPlace"><a href="${rLink}" target="_blank">${rPlace}</a></div>`
         }
 
+        let resumeItemString = ""
+        switch (rType) {
+            case "school":
+                resumeItemString = `<div class="resumeItem resumeItem-blue">`
+                break
+            case "internship":
+                resumeItemString = `<div class="resumeItem resumeItem-red">`
+                break
+            case "job":
+                resumeItemString = `<div class="resumeItem resumeItem-green">`
+                break
+            default:
+                resumeItemString = `<div class="resumeItem resumeItem-black">`
+                break
+        }
+
         let resumeString = `
-        <div class="resumeItem">
+        ${resumeItemString}
         <div class="rDate">${rDate}</div>
         <div class="rTitle"><span></span>${rTitle}</div>
         ${linkString}
@@ -61,8 +77,6 @@ function loadResume(){
         </div>
         `
 
-        console.log(resumeString)
         resume.innerHTML += resumeString
     }
-    console.log("fin fonction")
 }
