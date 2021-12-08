@@ -1,5 +1,5 @@
+//
 // loadCarousel()
-
 function loadCarousel(){
     // carousel resume
     resumeItem = resume_data[0]
@@ -36,8 +36,8 @@ function nextItemResume(){
 }
 
 //
-loadResume()
-function loadResume(){
+// loadResume_old()
+function loadResume_old(){
     let resume = document.getElementById("resume")
     for (let i = resume_data.length - 1; i >= 0; i--) {
         let rDate = resume_data[i]["date"]
@@ -78,5 +78,58 @@ function loadResume(){
         `
 
         resume.innerHTML += resumeString
+    }
+}
+
+//
+loadResume()
+function loadResume(){
+    for (let i = resume_data.length - 1; i >= 0; i--) {
+        let rDate = resume_data[i]["date"]
+        let rTitle = resume_data[i]["title"]
+        let rPlace = resume_data[i]["place"]
+        let rLink = resume_data[i]["link"]
+        let rDesc = resume_data[i]["desc"]
+        let rType = resume_data[i]["type"]
+
+        let rAvatarStr = svg_arrow_square_right
+        let rIconStr = ``
+        let rJobStr = rTitle
+        let rPlaceStr = rPlace
+        let rDateStr = rDate
+        let rContentStr = rDesc
+
+        switch (rType) {
+            case "school":
+                rIconStr = svg_school
+                break
+            case "internship":
+                rIconStr = svg_building
+                break
+            case "job":
+                rIconStr = svg_building
+                break
+            default:
+                rIconStr = svg_file
+                break
+        }
+
+        let resumeItemString = `
+        <div class="resume-avatar">${rAvatarStr}</div>
+        <div class="resume-item">
+            <div class="resume-header">
+                <div class="item-icon">${rIconStr}</div>
+                <div class="item-title">
+                    <div class="item-job">${rJobStr}</div>
+                    <div class="item-place">${rPlaceStr}</div>
+                </div>
+                <div class="item-date">${rDateStr}</div>
+            </div>
+            <div class="resume-content">${rContentStr}</div>
+        </div>
+        `
+
+        document.getElementById("resume-grid").innerHTML += resumeItemString
+
     }
 }

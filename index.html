@@ -34,27 +34,17 @@
             <div id="blocks">
                 <div id="bResume" class="block">
                     <div class="block-title">
-                        <img src="docs/assets/icons/document.png" alt="">Resume
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-alt" class="svg-inline--fa fa-file-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm64 236c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-64c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-72v8c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm96-114.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"></path></svg>
+                        Resume
                     </div>
-                    <div class="block-text">
-                        Download the PDF version: <a href="docs/assets/pdf/CV_CURTETMartin.pdf" download="">Resume</a>
-                    </div>
-                    <div id="resume"></div>
-                    <!-- <div id="carousel-resume" class="block-carousel">
-                        <div class="pointer" onclick="previousItemResume()">&#10094</div>
-                        <div class="carousel-item">
-                            <div id="carousel-resume-title" class="carousel-title"></div>
-                            <div id="carousel-resume-place" class="carousel-place"></div>
-                            <div id="carousel-resume-content" class="carousel-content"></div>
-                            <div id="carousel-resume-slides" class="carousel-slides"><span></span>/<span></span></div>
-                        </div>
-                        <div class="pointer" onclick="nextItemResume()">&#10095</div>
-                    </div> -->
+                    <div id="resume-grid" class="resume-grid"></div>
+                    <div>Download the PDF file here: <a href="/docs/assets/pdf/CV_CURTETMartin.pdf" download>CV_CURTETMartin.pdf</a></div>
                 </div>
 
                 <div id="bProjects" class="block">
                     <div class="block-title">
-                        <img src="docs/assets/icons/length-1.png" alt="">Projects
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="flask" class="svg-inline--fa fa-flask fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M437.2 403.5L320 215V64h8c13.3 0 24-10.7 24-24V24c0-13.3-10.7-24-24-24H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h8v151L10.8 403.5C-18.5 450.6 15.3 512 70.9 512h306.2c55.7 0 89.4-61.5 60.1-108.5zM137.9 320l48.2-77.6c3.7-5.2 5.8-11.6 5.8-18.4V64h64v160c0 6.9 2.2 13.2 5.8 18.4l48.2 77.6h-172z"></path></svg>
+                        Projects
                     </div>
                     <div class="block-text">
                         <p>Portfolio (this website): <a href="https://github.com/martincurtet/martincurtet.github.io" target="_blank">Github repository</a></p>
@@ -64,7 +54,8 @@
 
                 <div id="bContact" class="block">
                     <div class="block-title">
-                        <img src="docs/assets/icons/contact-card.png" alt="">Contact Me
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="address-card" class="svg-inline--fa fa-address-card fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-352 96c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm112 236.8c0 10.6-10 19.2-22.4 19.2H86.4C74 384 64 375.4 64 364.8v-19.2c0-31.8 30.1-57.6 67.2-57.6h5c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h5c37.1 0 67.2 25.8 67.2 57.6v19.2zM512 312c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-64c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-64c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16z"></path></svg>
+                        Contact Me
                     </div>
                     <div class="block-text">
                         
@@ -84,6 +75,7 @@
         </div><!-- END MAIN -->
 
         <!-- SCRIPTS -->
+        <script src="js/svg_strings.js"></script>
         <script src="js/resume_data.js"></script>
         <script src="js/script.js"></script>
         <!-- END SCRIPTS -->
