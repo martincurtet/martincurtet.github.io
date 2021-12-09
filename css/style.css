@@ -237,3 +237,13 @@ svg{
     border-radius: .25rem;
 }
 
+.no-decoration{
+    color: var(--grey-text);
+    text-decoration: none;
+}
+
+.no-decoration:visited{
+    color: var(--grey-text);
+    text-decoration: none;
+}
+

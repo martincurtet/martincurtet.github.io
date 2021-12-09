@@ -95,7 +95,6 @@ function loadResume(){
         let rAvatarStr = svg_arrow_square_right
         let rIconStr = ``
         let rJobStr = rTitle
-        let rPlaceStr = rPlace
         let rDateStr = rDate
         let rContentStr = rDesc
 
@@ -112,6 +111,11 @@ function loadResume(){
             default:
                 rIconStr = svg_file
                 break
+        }
+
+        let rPlaceStr = rPlace
+        if (rLink){
+            rPlaceStr = `<a class="no-decoration" href="${rLink}" target="_blank">${rPlace}</a>`
         }
 
         let resumeItemString = `
