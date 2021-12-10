@@ -134,6 +134,20 @@ function loadResume(){
         `
 
         document.getElementById("resume-grid").innerHTML += resumeItemString
-
     }
+}
+
+//
+function spoilerShow(id){
+    let descId = "desc-project-" + id
+    document.getElementById("spoilerShow0").style.display = "none"
+    document.getElementById("spoilerHide0").style.display = "block"
+    document.getElementById(descId).style.display = "block"
+}
+
+function spoilerHide(id){
+    let descId = "desc-project-" + id
+    document.getElementById("spoilerShow0").style.display = "block"
+    document.getElementById("spoilerHide0").style.display = "none"
+    document.getElementById(descId).style.display = "none"
 }

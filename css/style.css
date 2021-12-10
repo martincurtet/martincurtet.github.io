@@ -85,6 +85,8 @@ svg{
     background-color: rgba(255, 255, 255, 0.8);
 
     padding: 15px;
+
+    box-shadow: 5px 5px 5px var(--grey-second);
 }
 
 /* .block:hover{
@@ -237,6 +239,7 @@ svg{
     border-radius: .25rem;
 }
 
+/*  */
 .no-decoration{
     color: var(--grey-text);
     text-decoration: none;
@@ -247,3 +250,27 @@ svg{
     text-decoration: none;
 }
 
+.spoilerShow{
+    display: block;
+}
+
+.spoilerHide{
+    display: none;
+}
+
+.desc-project{
+    display: none;
+
+    margin-top: .5rem;
+    padding: .25rem;
+
+    background-color: var(--grey-background);
+
+    border-radius: .25rem;
+}
+
+.title-project{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
