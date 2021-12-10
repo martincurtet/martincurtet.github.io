@@ -115,7 +115,7 @@ svg{
 #bResume{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 .pointer{
@@ -204,6 +204,10 @@ svg{
 
     border: solid 1px var(--grey-second);
     border-radius: .75rem;
+}
+
+.resume-item:hover{
+    box-shadow: 5px 5px 5px var(--grey-second);
 }
 
 .resume-header{
