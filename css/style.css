@@ -236,11 +236,13 @@ svg{
 
 .resume-content{
     margin-top: .5rem;
-    padding: .25rem;
+    padding: .5rem;
 
     background-color: var(--grey-background);
 
     border-radius: .25rem;
+
+    white-space: pre-wrap;
 }
 
 /*  */
@@ -266,7 +268,7 @@ svg{
     display: none;
 
     margin-top: .5rem;
-    padding: .25rem;
+    padding: .5rem;
 
     background-color: var(--grey-background);
 
