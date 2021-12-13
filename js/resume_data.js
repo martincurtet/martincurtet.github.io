@@ -29,7 +29,7 @@ resume_data = [
         place: "EFFICOM Paris",
         link: "https://www.efficom.fr/",
         type: "school",
-        desc: "Contest between two schools to create the full Specifications of a project given by a company. Finished first among twelve teams"
+        desc: "Contest between two schools to create the full Specifications of a project given by a company. Finished first among twelve teams."
     },
     {
         date: "2020/2021",

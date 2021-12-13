@@ -42,9 +42,26 @@ svg{
 }
 
 #name{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
     padding-top: 100px;
-
     font-size: 60px;
+}
+
+.prenom{
+    display: flex;
+}
+
+.prenom > span{
+    transform: translateY(10px);
+    transition: transform .5s;
+}
+
+.prenom > span:hover{
+    text-shadow: var(--grey-second) 2px 2px;
+    transform: translateY(-10px);
+    transition: transform .5s;
 }
 
 #desc{
@@ -273,6 +290,8 @@ svg{
     background-color: var(--grey-background);
 
     border-radius: .25rem;
+
+    white-space: pre-wrap;
 }
 
 .title-project{
