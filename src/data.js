@@ -12,6 +12,18 @@ export const resumeData = [
     "icons": ""
   },
   {
+    "id": 104,
+    "type": "work",
+    "title": "Fullstack Developer",
+    "subtitle": "",
+    "company": "Life3",
+    "location": "US, Remote",
+    "start_date": "09/2022",
+    "end_date": "ongoing",
+    "description": "Data Managing for a student LMS, Tech Support for online classes. Fullstack developement learning for a future website project using React | Node JS and Express | Postgresql | Agile methods | Task management using Jira",
+    "icons": ""
+  },
+  {
     "id": 103,
     "type": "work",
     "title": "Fullstack Developer",
@@ -20,7 +32,7 @@ export const resumeData = [
     "location": "US, Remote",
     "start_date": "06/2022",
     "end_date": "09/2022",
-    "description": "Working on the main website, frontend features, backend features, database procedures, using: \nReact | Python Django | Postgresql\nAgile methods, Pair-programming, Task management using Clickup",
+    "description": "Working on the main website, frontend features, backend features, database procedures, using: \nReact | Python Django | Postgresql | Agile methods | Pair-programming | Task management using Clickup",
     "icons": ""
   },
   {
