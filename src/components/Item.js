@@ -18,7 +18,7 @@ export default function Item(props) {
       }
       {itemData.subtitle&&
         // item subtitle
-        <div className=''>{itemData.subtitle}</div>
+        <div className='text-dark'>{itemData.subtitle}</div>
       }
       {itemData&&
         // item block

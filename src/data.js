@@ -1,6 +1,7 @@
 export const resumeData = [
   {
     "id": 0,
+    "active": false,
     "type": "",
     "title": "",
     "subtitle": "",
@@ -13,6 +14,7 @@ export const resumeData = [
   },
   {
     "id": 104,
+    "active": true,
     "type": "work",
     "title": "Fullstack Developer",
     "subtitle": "",
@@ -25,6 +27,7 @@ export const resumeData = [
   },
   {
     "id": 103,
+    "active": true,
     "type": "work",
     "title": "Fullstack Developer",
     "subtitle": "",
@@ -37,6 +40,7 @@ export const resumeData = [
   },
   {
     "id": 102,
+    "active": true,
     "type": "work",
     "title": "Fullstack Developer",
     "subtitle": "",
@@ -49,6 +53,7 @@ export const resumeData = [
   },
   {
     "id": 101,
+    "active": true,
     "type": "work",
     "title": "Web Developer",
     "subtitle": "",
@@ -62,6 +67,7 @@ export const resumeData = [
   },
   {
     "id": 202,
+    "active": true,
     "type": "school",
     "title": "Bachelor's Degree",
     "subtitle": "Project Management - Fullstack option",
@@ -74,6 +80,7 @@ export const resumeData = [
   },
   {
     "id": 201,
+    "active": true,
     "type": "school",
     "title": "Associate's Degree",
     "subtitle": "'IT Services to Organizations' - Developer Option",
@@ -83,5 +90,83 @@ export const resumeData = [
     "end_date": "2020",
     "description": "Basis of IT, basis of Linux, computer hardware, networking and programming (Web and C#).",
     "icons": ""
+  },
+  {
+    "id": 301,
+    "active": true,
+    "type": "language",
+    "title": "French",
+    "flag": "FR",
+    "description": "native"
+  },
+  {
+    "id": 302,
+    "active": true,
+    "type": "language",
+    "title": "English",
+    "flag": "GB",
+    "description": "fluent"
+  },
+  {
+    "id": 303,
+    "active": true,
+    "type": "language",
+    "title": "Spanish",
+    "flag": "ES",
+    "description": "basic"
+  },
+  {
+    "id": 304,
+    "active": true,
+    "title": "HTML/CSS",
+    "description": ""
+  },
+  {
+    "id": 305,
+    "active": true,
+    "title": "Javascript",
+    "description": "Vanilla, React, NodeJS"
+  },
+  {
+    "id": 306,
+    "active": true,
+    "title": "Python",
+    "description": "Flask, Django"
+  },
+  {
+    "id": 307,
+    "active": true,
+    "title": "PHP",
+    "description": ""
+  },
+  {
+    "id": 308,
+    "active": true,
+    "title": "SQL",
+    "description": "mySQL, PostgreSQL"
+  },
+  {
+    "id": 309,
+    "active": true,
+    "title": "Collaborative work with",
+    "description": "Git, Github, Gitlab, Bitbucket"
+  },
+  {
+    "id": 310,
+    "active": true,
+    "title": "Remote communication with",
+    "description": "Teams, Slack, Zoom"
+  },
+  {
+    "id": 311,
+    "active": true,
+    "title": "Collaborative design with",
+    "description": "Figma, Miro"
+  },
+  {
+    "id": 312,
+    "active": true,
+    "title": "Email communication with",
+    "description": "Outlook, Gmail"
   }
 ]
