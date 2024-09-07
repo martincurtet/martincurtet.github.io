@@ -16,13 +16,13 @@ export const resumeData = [
     "id": 104,
     "active": true,
     "type": "work",
-    "title": "Fullstack Developer",
+    "title": "Junior Product Manager",
     "subtitle": "",
-    "company": "Life3",
+    "company": "LIFE3",
     "location": "US, Remote",
     "start_date": "09/2022",
     "end_date": "ongoing",
-    "description": "Data Managing for a student LMS, Tech Support for online classes. Fullstack developement learning for a future website project using React | Node JS and Express | Postgresql | Agile methods | Task management using Jira",
+    "description": "Data Managing for a student LMS, Tech Support for online classes. Fullstack developement learning for a future website project using React | Node JS and Express | Postgresql | Agile methods | Task management using Jira. Handling data intake with forms and data management for reporting purposes.",
     "icons": ""
   },
   {
